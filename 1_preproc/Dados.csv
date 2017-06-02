@@ -1,0 +1,11 @@
+Estado civil,Idade,Salario,Comprou?
+Solteiro,40,10000,N
+Casado,27,4000,S
+Casado,30,30000,N
+Separado,50,50000,N
+Casado,40,,S
+Solteiro,35,12000,S
+Solteiro,,3000,N
+Casado,48,12000,S
+Solteiro,50,6000,N
+Separado,37,1000,S
