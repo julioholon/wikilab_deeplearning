@@ -19,9 +19,9 @@ y = dataset.iloc[:, 2].values
 ## Dados numéricos: ajustando a escala
 ##
 # Escala entre 0 e 1
-from sklearn.preprocessing import MinMaxScaler
-scaler = MinMaxScaler((0,1))
-X[:, 0:2] = scaler.fit_transform(X[:, 0:2])
+#from sklearn.preprocessing import MinMaxScaler
+#scaler = MinMaxScaler((0,1))
+#X[:, 0:2] = scaler.fit_transform(X[:, 0:2])
 
 ## Dados de treinamento e teste
 ##
@@ -44,6 +44,7 @@ y_pred = classifier.predict(X_test)
 #    dot_data = tree.export_graphviz(classifier, 
 #                         filled=True, rounded=True,  
 #                         special_characters=True,
+#                         feature_names=["Freq", "ENEM"],
 #                         out_file=f)
 
 # Gerando a matriz de confusão

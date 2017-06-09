@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Regress„o Linear Simples
+Regress√£o Linear Simples
 
 @author: Julio L R Monteiro
 """
 
-# Bibliotecas padr„o
+# Bibliotecas padr√£o
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -21,7 +21,7 @@ y = dataset.iloc[:, 1].values
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
-# Ajustando o modelo de regress„o aos dados de treinamento
+# Ajustando o modelo de regress√£o aos dados de treinamento
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 regressor.fit(X_train, y_train)
